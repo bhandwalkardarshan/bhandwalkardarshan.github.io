@@ -58,6 +58,10 @@ $(document).ready(function () {
   });
 });
 
+// resume
+function resume(){
+  window.open("images/Darshan_Bhandwalkar_Resume.pdf","_blank")
+}
 
 //change the file here
 document.getElementById("resume-button-1").onclick = ()=>{
@@ -68,10 +72,8 @@ document.getElementById("resume-button-2").onclick = ()=>{
   window.open("https://drive.google.com/file/d/18CjRi-LWK21e-5Pr4quF87_DtlaGLKGc/view?usp=sharing",`_blank`)
 }
 
-// GitHubCalendar(".calendar", "bhandwalkardarshan", {
-//   responsive: true,
-//   global_stats: false,
-//   tooltips: true,
-// });
+
+
+GitHubCalendar(".calendar", "bhandwalkardarshan");
 
 GitHubCalendar(".calendar", "bhandwalkardarshan", { responsive: true });
