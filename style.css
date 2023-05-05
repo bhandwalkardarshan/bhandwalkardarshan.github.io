@@ -354,8 +354,7 @@ section .title::after {
   background: #fff;
 }
 .services .title::after,
-.project .title::after {
-  background: #ff6402;
+#projects .title::after {
   content: "what i do";
 }
 .services .serv-content .card {
@@ -450,10 +449,7 @@ section .title::after {
   border: 2px solid #251e21;
   transition: all 0.3s ease;
 }
-/* .skills .skills-content .left a:hover {
-  color: #251e21;
-  background: none;
-} */
+
 
 
 /* project section styling */
@@ -524,18 +520,7 @@ section .title::after {
   margin-top: 8px;
   margin-right: 15px;
 }
-/* #projects>div>div>p>i:nth-child(1){
-  color: orangered;
-}
-#projects>div>div>p>i:nth-child(2){
-  color: blue;
-}
-#projects>div>div:nth-child(3)>p>i:nth-child(2), #projects>div>div:nth-child(4)>p>i:nth-child(2){
-  color: gray;
-}
-#projects>div>div>p>i:nth-child(3){
-  color: rgb(211, 121, 18);
-} */
+
 #projects>div>div>button{
   margin-top: 15px;
   margin-left: 35px;
