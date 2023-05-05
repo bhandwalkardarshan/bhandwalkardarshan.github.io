@@ -457,44 +457,104 @@ section .title::after {
 
 
 /* project section styling */
-.project .title::after {
-  content: "see my work";
-}
-.project .carousel .card {
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
+#projects{
+  width: 100%;
   text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
+  padding: 80px 0px;
 }
-.project .carousel .card:hover {
-  background: #251e21;
+#projects>h1{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  color:  #8806ce;
+  font-size: 35px;
 }
-.project .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
+#projects>div{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  gap:100px;
 }
-.project .carousel .card:hover .box {
-  transform: scale(1.05);
+#projects>div>div{
+  height:auto;
+  border-radius: 18px;
+  padding-bottom: 40px;
+  background-color: rgba(248, 248, 248, 0.842);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.project .carousel .card .text {
-  font-size: 22px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
+#projects>div>div>img{
+  width: 100%;
+  height: 48%;
+  margin: auto;
+  padding-top: 10px;
+  background-color: white;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom: 1px solid gainsboro;
+}
+#projects>div>div:nth-child(2)>img{
+  background-color: rgba(245, 245, 245, 0.626);
+}
+#projects>div>div>h2{
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(3, 113, 104);
+}
+#projects>div>div:nth-child(4)>h2{
+  width: 85%;
+}
+#projects>div>div>p{
+  width: 85%;
+  margin: auto;
+}
+#projects>div>div>p:nth-child(3){
+  text-align: justify;
 }
 
-.repo-links {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 45px;
-  margin-top: 5%;
-  /* border: 2px solid wheat; */
+#projects>div>div>p:nth-child(4){
+  margin-top: 8px;
+  font-size: 1.15rem;
+  color: rgb(3, 113, 104);
 }
+#projects>div>div>p>i{
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+/* #projects>div>div>p>i:nth-child(1){
+  color: orangered;
+}
+#projects>div>div>p>i:nth-child(2){
+  color: blue;
+}
+#projects>div>div:nth-child(3)>p>i:nth-child(2), #projects>div>div:nth-child(4)>p>i:nth-child(2){
+  color: gray;
+}
+#projects>div>div>p>i:nth-child(3){
+  color: rgb(211, 121, 18);
+} */
+#projects>div>div>button{
+  margin-top: 15px;
+  margin-left: 35px;
+  margin-right: -10px;
+  padding:8px 14px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(7, 165, 152);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+#projects>div>div>button:hover{
+  background-color: rgb(3, 110, 101);
+  cursor: pointer;
+}
+#projects>div>div>button>i{
+  font-size: 12px;
+}
+
 
 .repo-div {
   display: flex;
@@ -551,7 +611,7 @@ section .title::after {
 .owl-dot.active,
 .owl-dot:hover {
   background: #251e21 !important;
-}
+} */
 
 /* contact section styling */
 .contact .title::after {
@@ -857,9 +917,7 @@ footer span a:hover {
   margin-top: 50px;
 }
 
-#calendar{
-  /* margin-bottom: 10px; */
-}
+
 
 @media screen and ( max-width: 500px ) and (min-width: 0px){
   #container{
