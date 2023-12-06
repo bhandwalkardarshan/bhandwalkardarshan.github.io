@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 // resume
 function resume(){
-  window.open("images/Darshan_Bhandwalkar_Resume.pdf","_blank")
+  window.open("images/Darshan-Bhandwalkar-Resume.pdf","_blank")
 }
 
 //change the file here
@@ -74,36 +74,36 @@ document.getElementById("resume-button-2").onclick = ()=>{
 
 
 // projects
-document.getElementById("git1Button").addEventListener("click",function(){
-  window.open("https://github.com/bhandwalkardarshan/noiseless-plantation-1250", "_blank");
-})
-document.getElementById("deploy1Button").addEventListener("click",function(){
-  window.open("https://lustrous-sunshine-c76797.netlify.app/", "_blank");
-})
+// document.getElementById("git1Button").addEventListener("click",function(){
+//   window.open("https://github.com/bhandwalkardarshan/noiseless-plantation-1250", "_blank");
+// })
+// document.getElementById("deploy1Button").addEventListener("click",function(){
+//   window.open("https://lustrous-sunshine-c76797.netlify.app/", "_blank");
+// })
 
-document.getElementById("git2Button").addEventListener("click",function(){
-  window.open("https://github.com/bhandwalkardarshan/Diesel.com_clone", "_blank");
-})
-document.getElementById("deploy2Button").addEventListener("click",function(){
-  window.open("https://marvelous-tanuki-faa7b6.netlify.app/", "_blank");
-})
+// document.getElementById("git2Button").addEventListener("click",function(){
+//   window.open("https://github.com/bhandwalkardarshan/Diesel.com_clone", "_blank");
+// })
+// document.getElementById("deploy2Button").addEventListener("click",function(){
+//   window.open("https://marvelous-tanuki-faa7b6.netlify.app/", "_blank");
+// })
 
-document.getElementById("git3Button").addEventListener("click",function(){
-  window.open("https://github.com/bhandwalkardarshan/jaded-fear-6081", "_blank");
-})
-document.getElementById("deploy3Button").addEventListener("click",function(){
-  window.open("https://admirable-pavlova-35a444.netlify.app/", "_blank");
-})
+// document.getElementById("git3Button").addEventListener("click",function(){
+//   window.open("https://github.com/bhandwalkardarshan/jaded-fear-6081", "_blank");
+// })
+// document.getElementById("deploy3Button").addEventListener("click",function(){
+//   window.open("https://admirable-pavlova-35a444.netlify.app/", "_blank");
+// })
 
-document.getElementById("git4Button").addEventListener("click",function(){
-  window.open("https://github.com/bhandwalkardarshan/noiseless-plantation-1250", "_blank");
-})
-document.getElementById("deploy4Button").addEventListener("click",function(){
-  window.open("https://lustrous-sunshine-c76797.netlify.app/", "_blank");
-})
+// document.getElementById("git4Button").addEventListener("click",function(){
+//   window.open("https://github.com/bhandwalkardarshan/noiseless-plantation-1250", "_blank");
+// })
+// document.getElementById("deploy4Button").addEventListener("click",function(){
+//   window.open("https://lustrous-sunshine-c76797.netlify.app/", "_blank");
+// })
 
 
 // calender
 GitHubCalendar(".calendar", "bhandwalkardarshan");
-
+    // or enable responsive functionality:
 GitHubCalendar(".calendar", "bhandwalkardarshan", { responsive: true });
