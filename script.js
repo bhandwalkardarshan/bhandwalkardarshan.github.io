@@ -72,7 +72,10 @@ document.getElementById("resume-button-2").onclick = ()=>{
   window.open("https://drive.google.com/file/d/18CjRi-LWK21e-5Pr4quF87_DtlaGLKGc/view?usp=sharing",`_blank`)
 }
 
-// calender
-GitHubCalendar(".calendar", "bhandwalkardarshan");
-    // or enable responsive functionality:
-GitHubCalendar(".calendar", "bhandwalkardarshan", { responsive: true });
+
+
+GitHubCalendar(".calendar", "bhandwalkardarshan", {
+  responsive: true,
+  global_stats: true,
+  tooltips: true,
+});
